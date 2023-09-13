@@ -22,6 +22,7 @@ const WorkoutDetails = ({ workout }) => {
       <p><strong />Reps: </p>
       <p>{workout.createdAt}</p>
       <span onClick={handleClick} >Delete</span>
+      <span>update</span>
     </section>
   )
 }
